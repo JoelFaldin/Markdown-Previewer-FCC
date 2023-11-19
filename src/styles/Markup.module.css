@@ -1,0 +1,54 @@
+body {
+    animation: color-changing 10s infinite;
+}
+
+@keyframes color-changing {
+    0% {background: #0B2D31}
+    50% {background: #285b61}
+    100% {background: #0B2D31}
+
+}
+
+.editor {
+    display: flex;
+    max-width: 500px;
+    min-width: 500px;
+    margin: auto;
+    min-height: 150px;
+}
+
+.divEditor {
+    width: 506px;
+    margin: auto;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.h1Class {
+    margin-bottom: 0;
+    background-color: #8b3eb1;
+    font-size: large;
+    border: 2px solid black;
+    color: #ededed;
+    padding: 5px 0 5px 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.divPreview {
+    background-color: gainsboro;
+    min-height: 50vh;
+    width: 808px;
+    margin: auto;
+}
+
+.h2Class {
+    margin-bottom: 0;
+    background-color: #8b3eb1;
+    font-size: large;
+    border: 2px solid black;
+    color: #ededed;
+    width: 800px;
+    margin: auto;
+    padding: 5px 0 5px 5px;
+    font-family: 'Poppins', sans-serif;
+}
